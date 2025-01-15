@@ -1,4 +1,5 @@
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by][![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14649658.svg)](https://doi.org/10.5281/zenodo.14649658)
+
 
 # Electronic Notebook: Solvent-Environment Dependence of the Excess Chemical Potential and its Computation Scheme Formulated Though Error Minimization: *Determination of octanol-water partitioning free energy* 
 
