@@ -1,0 +1,32 @@
+# This file was created Sat Nov  2 16:53:52 2024
+# Created by:
+#                       :-) GROMACS - gmx bar, 2024.2 (-:
+# 
+# Executable:   /apl/gromacs/2024.2-CUDA/bin/gmx
+# Data prefix:  /apl/gromacs/2024.2-CUDA
+# Working dir:  /lustre/home/users/eau/Octanol-Water_partitioning/Simulations/Solute-Only_BAR/Water/P_1-Octanol/6/BAR_result
+# Command line:
+#   gmx bar -g md10.edr md11.edr md12.edr md13.edr md14.edr md15.edr md16.edr md1.edr md2.edr md3.edr md4.edr md5.edr md6.edr md7.edr md8.edr md9.edr -o -oi -b 0 -e 20000
+# gmx bar is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Free energy differences"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xydy
+ 0.500  1.12  0.03
+ 1.500  1.46  0.12
+ 2.500  0.13  0.07
+ 3.500 -0.70  0.02
+ 4.500 -1.13  0.03
+ 5.500 -1.36  0.02
+ 6.500 -1.58  0.01
+ 7.500 -1.74  0.01
+ 8.500 -1.88  0.02
+ 9.500 -1.98  0.01
+10.500 -0.07  0.01
+11.500 -0.19  0.01
+12.500 -0.37  0.03
+13.500 -0.63  0.05
+14.500 -0.96  0.05

@@ -1,0 +1,33 @@
+# This file was created Sat Nov  2 16:53:06 2024
+# Created by:
+#                       :-) GROMACS - gmx bar, 2024.2 (-:
+# 
+# Executable:   /apl/gromacs/2024.2-CUDA/bin/gmx
+# Data prefix:  /apl/gromacs/2024.2-CUDA
+# Working dir:  /lustre/home/users/eau/Octanol-Water_partitioning/Simulations/Solute-Only_BAR/Water/P_1-Octanol/5/BAR_result
+# Command line:
+#   gmx bar -g md10.edr md11.edr md12.edr md13.edr md14.edr md15.edr md16.edr md1.edr md2.edr md3.edr md4.edr md5.edr md6.edr md7.edr md8.edr md9.edr -o -oi -b 0 -e 20000
+# gmx bar is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Free energy integral"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xy
+     0  0.00
+     1  1.15
+     2  2.62
+     3  2.71
+     4  1.93
+     5  0.82
+     6 -0.56
+     7 -2.16
+     8 -3.89
+     9 -5.76
+    10 -7.74
+    11 -7.82
+    12 -8.08
+    13 -8.64
+    14 -9.51
+    15 -11.04

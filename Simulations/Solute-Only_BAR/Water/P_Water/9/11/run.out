@@ -1,0 +1,145 @@
+ 
+:: initializing oneAPI environment ...
+   -bash: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: 
+:: advisor -- latest
+:: ccl -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: mpi -- latest
+:: tbb -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+ 
+:: WARNING: setvars.sh has already been run. Skipping re-execution.
+   To force a re-execution of setvars.sh, use the '--force' option.
+   Using '--force' can result in excessive use of your environment variables.
+  
+usage: source setvars.sh [--force] [--config=file] [--help] [...]
+  --force        Force setvars.sh to re-run, doing so may overload environment.
+  --config=file  Customize env vars using a setvars.sh configuration file.
+  --help         Display this help message and exit.
+  ...            Additional args are passed to individual env/vars.sh scripts
+                 and should follow this script's arguments.
+  
+  Some POSIX shells do not accept command-line options. In that case, you can pass
+  command-line options via the SETVARS_ARGS environment variable. For example:
+  
+  $ SETVARS_ARGS="ia32 --config=config.txt" ; export SETVARS_ARGS
+  $ . path/to/setvars.sh
+  
+  The SETVARS_ARGS environment variable is cleared on exiting setvars.sh.
+  
+Setting the LD random seed to -608241697
+
+Generated 300 of the 300 non-bonded parameter combinations
+
+Generated 300 of the 300 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'HEX'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Coupling 1 copies of molecule type 'HEX'
+Analysing residue names:
+There are:     1      Other residues
+There are:  2000      Water residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between non-perturbed excluded atoms is 0.201 nm between atom 2681 and 2682
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 36x36x36, spacing 0.109 0.109 0.109
+
+Estimate for the relative computational load of the PME mesh part: 0.48
+
+This run will generate roughly 20 Mb of data
+Setting the LD random seed to -958726213
+
+Generated 300 of the 300 non-bonded parameter combinations
+
+Generated 300 of the 300 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'HEX'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Coupling 1 copies of molecule type 'HEX'
+
+Setting gen_seed to -59856032
+
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:     1      Other residues
+There are:  2000      Water residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between non-perturbed excluded atoms is 0.152 nm between atom 506 and 507
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+
+Calculated rlist for 1x1 atom pair-list as 1.239 nm, buffer size 0.039 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.202 nm, buffer size 0.002 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 36x36x36, spacing 0.109 0.109 0.109
+
+Estimate for the relative computational load of the PME mesh part: 0.29
+
+This run will generate roughly 314 Mb of data
+Setting the LD random seed to -1040204806
+
+Generated 300 of the 300 non-bonded parameter combinations
+
+Generated 300 of the 300 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'HEX'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Coupling 1 copies of molecule type 'HEX'
+Analysing residue names:
+There are:     1      Other residues
+There are:  2000      Water residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between non-perturbed excluded atoms is 0.152 nm between atom 4298 and 4299
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+
+Calculated rlist for 1x1 atom pair-list as 1.239 nm, buffer size 0.039 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.202 nm, buffer size 0.002 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 36x36x36, spacing 0.109 0.109 0.109
+
+Estimate for the relative computational load of the PME mesh part: 0.29
+
+This run will generate roughly 627 Mb of data

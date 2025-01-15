@@ -1,0 +1,172 @@
+
+md10.edr: 0.0 - 20001.0; lambda = (0, 0.9)
+    foreign lambdas:
+        delta H to (0, 0.8) (20001 pts)
+        delta H to (0, 0.9) (20001 pts)
+        delta H to (0, 1) (20001 pts)
+
+
+
+md11.edr: 0.0 - 20001.0; lambda = (0, 1)
+    foreign lambdas:
+        delta H to (0, 0.9) (20001 pts)
+        delta H to (0, 1) (20001 pts)
+        delta H to (0.2, 1) (20001 pts)
+
+
+
+md12.edr: 0.0 - 20001.0; lambda = (0.2, 1)
+    foreign lambdas:
+        delta H to (0, 1) (20001 pts)
+        delta H to (0.2, 1) (20001 pts)
+        delta H to (0.4, 1) (20001 pts)
+
+
+
+md13.edr: 0.0 - 20001.0; lambda = (0.4, 1)
+    foreign lambdas:
+        delta H to (0.2, 1) (20001 pts)
+        delta H to (0.4, 1) (20001 pts)
+        delta H to (0.6, 1) (20001 pts)
+
+
+
+md14.edr: 0.0 - 20001.0; lambda = (0.6, 1)
+    foreign lambdas:
+        delta H to (0.4, 1) (20001 pts)
+        delta H to (0.6, 1) (20001 pts)
+        delta H to (0.8, 1) (20001 pts)
+
+
+
+md15.edr: 0.0 - 20001.0; lambda = (0.8, 1)
+    foreign lambdas:
+        delta H to (0.6, 1) (20001 pts)
+        delta H to (0.8, 1) (20001 pts)
+        delta H to (1, 1) (20001 pts)
+
+
+
+md16.edr: 0.0 - 20001.0; lambda = (1, 1)
+    foreign lambdas:
+        delta H to (0.8, 1) (20001 pts)
+        delta H to (1, 1) (20001 pts)
+
+
+
+md1.edr: 0.0 - 20001.0; lambda = (0, 0)
+    foreign lambdas:
+        delta H to (0, 0) (20001 pts)
+        delta H to (0, 0.1) (20001 pts)
+
+
+
+md2.edr: 0.0 - 20001.0; lambda = (0, 0.1)
+    foreign lambdas:
+        delta H to (0, 0) (20001 pts)
+        delta H to (0, 0.1) (20001 pts)
+        delta H to (0, 0.2) (20001 pts)
+
+
+
+md3.edr: 0.0 - 20001.0; lambda = (0, 0.2)
+    foreign lambdas:
+        delta H to (0, 0.1) (20001 pts)
+        delta H to (0, 0.2) (20001 pts)
+        delta H to (0, 0.3) (20001 pts)
+
+
+
+md4.edr: 0.0 - 20001.0; lambda = (0, 0.3)
+    foreign lambdas:
+        delta H to (0, 0.2) (20001 pts)
+        delta H to (0, 0.3) (20001 pts)
+        delta H to (0, 0.4) (20001 pts)
+
+
+
+md5.edr: 0.0 - 20001.0; lambda = (0, 0.4)
+    foreign lambdas:
+        delta H to (0, 0.3) (20001 pts)
+        delta H to (0, 0.4) (20001 pts)
+        delta H to (0, 0.5) (20001 pts)
+
+
+
+md6.edr: 0.0 - 20001.0; lambda = (0, 0.5)
+    foreign lambdas:
+        delta H to (0, 0.4) (20001 pts)
+        delta H to (0, 0.5) (20001 pts)
+        delta H to (0, 0.6) (20001 pts)
+
+
+
+md7.edr: 0.0 - 20001.0; lambda = (0, 0.6)
+    foreign lambdas:
+        delta H to (0, 0.5) (20001 pts)
+        delta H to (0, 0.6) (20001 pts)
+        delta H to (0, 0.7) (20001 pts)
+
+
+
+md8.edr: 0.0 - 20001.0; lambda = (0, 0.7)
+    foreign lambdas:
+        delta H to (0, 0.6) (20001 pts)
+        delta H to (0, 0.7) (20001 pts)
+        delta H to (0, 0.8) (20001 pts)
+
+
+
+md9.edr: 0.0 - 20001.0; lambda = (0, 0.8)
+    foreign lambdas:
+        delta H to (0, 0.7) (20001 pts)
+        delta H to (0, 0.8) (20001 pts)
+        delta H to (0, 0.9) (20001 pts)
+
+
+
+   Samples in time interval: 0.000 - 20001.000
+Removing samples outside of: 0.000 - 18000.000
+
+Temperature: 298.15 K
+
+Detailed results in kT (see help for explanation):
+
+ lam_A  lam_B      DG   +/-     s_A   +/-     s_B   +/-   stdev   +/- 
+     0      1    1.17  0.08    0.88  0.09    0.91  0.10    1.37  0.05
+     1      2    1.50  0.09    2.52  0.13    1.96  0.08    2.43  0.07
+     2      3    0.11  0.07    2.17  0.15    1.26  0.07    1.90  0.06
+     3      4   -0.66  0.00    1.50  0.05    0.93  0.02    1.54  0.01
+     4      5   -1.08  0.01    1.06  0.03    0.67  0.02    1.29  0.01
+     5      6   -1.34  0.01    0.94  0.02    0.61  0.02    1.21  0.00
+     6      7   -1.55  0.01    0.83  0.03    0.53  0.02    1.12  0.02
+     7      8   -1.70  0.01    0.69  0.01    0.43  0.01    1.03  0.01
+     8      9   -1.83  0.01    0.63  0.01    0.40  0.01    0.95  0.01
+     9     10   -1.95  0.01    0.55  0.01    0.36  0.01    0.89  0.01
+    10     11   -0.07  0.01    0.06  0.00    0.06  0.00    0.33  0.02
+    11     12   -0.20  0.02    0.07  0.02    0.07  0.02    0.36  0.02
+    12     13   -0.33  0.03    0.06  0.03    0.07  0.03    0.39  0.01
+    13     14   -0.52  0.02    0.12  0.03    0.15  0.03    0.51  0.01
+    14     15   -0.95  0.05    0.28  0.04    0.38  0.04    0.85  0.03
+
+
+Final results in kJ/mol:
+
+point      0 -      1,   DG  2.90 +/-  0.21
+point      1 -      2,   DG  3.71 +/-  0.22
+point      2 -      3,   DG  0.28 +/-  0.17
+point      3 -      4,   DG -1.64 +/-  0.01
+point      4 -      5,   DG -2.67 +/-  0.03
+point      5 -      6,   DG -3.32 +/-  0.03
+point      6 -      7,   DG -3.83 +/-  0.03
+point      7 -      8,   DG -4.21 +/-  0.03
+point      8 -      9,   DG -4.53 +/-  0.03
+point      9 -     10,   DG -4.84 +/-  0.03
+point     10 -     11,   DG -0.18 +/-  0.03
+point     11 -     12,   DG -0.49 +/-  0.06
+point     12 -     13,   DG -0.82 +/-  0.07
+point     13 -     14,   DG -1.29 +/-  0.06
+point     14 -     15,   DG -2.35 +/-  0.13
+
+total      0 -     15,   DG -23.28 +/-  0.69
+

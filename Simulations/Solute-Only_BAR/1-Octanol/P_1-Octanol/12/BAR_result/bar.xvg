@@ -1,0 +1,32 @@
+# This file was created Fri Oct 25 03:33:42 2024
+# Created by:
+#                       :-) GROMACS - gmx bar, 2024.2 (-:
+# 
+# Executable:   /apl/gromacs/2024.2-CUDA/bin/gmx
+# Data prefix:  /apl/gromacs/2024.2-CUDA
+# Working dir:  /lustre/home/users/eau/Octanol-Water_partitioning/Simulations/Solute-Only_BAR/1-Octanol/P_1-Octanol/12/BAR_result
+# Command line:
+#   gmx bar -g md10.edr md11.edr md12.edr md13.edr md14.edr md15.edr md16.edr md1.edr md2.edr md3.edr md4.edr md5.edr md6.edr md7.edr md8.edr md9.edr -o -oi -b 0 -e 20000
+# gmx bar is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Free energy differences"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xydy
+ 0.500  1.19  0.06
+ 1.500  1.58  0.13
+ 2.500  0.08  0.05
+ 3.500 -0.71  0.02
+ 4.500 -1.10  0.02
+ 5.500 -1.34  0.02
+ 6.500 -1.58  0.02
+ 7.500 -1.73  0.01
+ 8.500 -1.86  0.01
+ 9.500 -1.97  0.01
+10.500 -0.06  0.01
+11.500 -0.14  0.01
+12.500 -0.24  0.02
+13.500 -0.45  0.06
+14.500 -0.89  0.04

@@ -1,0 +1,15 @@
+
+tolerance 2.0
+filetype pdb
+output init.pdb
+pbc 39.4 39.4 39.4
+
+structure conf.pdb
+        number 1
+        center
+        fixed 19.7. 19.7. 19.7. 0. 0. 0.
+end structure
+
+structure /data/group1/z44785r/Octanol-Water_partitioning/PDB_files/water.pdb
+        number 2000
+end structure

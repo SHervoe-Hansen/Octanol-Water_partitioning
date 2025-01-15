@@ -1,0 +1,39 @@
+
+; RUN CONTROL PARAMETERS
+; Run parameters
+integrator  = sd
+dt          = 0.002
+tinit       = 0
+nsteps      = 50000000   ; 100 ns
+; Output parameters
+nstxout-compressed  = 500  ; 1 ps
+nstenergy           = 500  ; 1 ps
+; Bond parameters
+constraint_algorithm    = lincs
+constraints             = h-bonds
+continuation            = yes
+; Single-range cutoff scheme
+cutoff-scheme   = Verlet
+nstlist         = 20 
+;verlet-buffer-tolerance = 0.0001
+rcoulomb        = 1.2
+; van der Waals
+vdwtype = switch
+rvdw            = 1.2
+rvdw_switch = 1.0
+DispCorr        = No
+; PME electrostatics parameters
+coulombtype     = PME
+fourierspacing  = 0.12
+pme_order       = 4
+ewald_rtol      = 1e-5
+; Temperature coupling is on in two groups
+tc-grps         = system
+tau-t           = 1.0
+ref-t           = 298.15
+; Pressure coupling is off
+Pcoupl          = No 
+; Generate velocities is off
+gen_vel     = no 
+; Periodic boundary conditions are on in all directions
+pbc     = xyz

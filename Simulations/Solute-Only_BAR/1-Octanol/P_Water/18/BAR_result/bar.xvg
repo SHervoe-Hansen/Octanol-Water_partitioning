@@ -1,0 +1,32 @@
+# This file was created Fri Oct 25 03:43:03 2024
+# Created by:
+#                       :-) GROMACS - gmx bar, 2024.2 (-:
+# 
+# Executable:   /apl/gromacs/2024.2-CUDA/bin/gmx
+# Data prefix:  /apl/gromacs/2024.2-CUDA
+# Working dir:  /lustre/home/users/eau/Octanol-Water_partitioning/Simulations/Solute-Only_BAR/1-Octanol/P_Water/18/BAR_result
+# Command line:
+#   gmx bar -g md10.edr md11.edr md12.edr md13.edr md14.edr md15.edr md16.edr md1.edr md2.edr md3.edr md4.edr md5.edr md6.edr md7.edr md8.edr md9.edr -o -oi -b 0 -e 20000
+# gmx bar is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Free energy differences"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xydy
+ 0.500  1.06  0.00
+ 1.500  3.11  0.01
+ 2.500  3.32  0.02
+ 3.500  1.22  0.01
+ 4.500  0.12  0.01
+ 5.500 -0.42  0.01
+ 6.500 -0.73  0.00
+ 7.500 -0.93  0.00
+ 8.500 -1.07  0.00
+ 9.500 -1.16  0.00
+10.500 -0.27  0.00
+11.500 -0.97  0.01
+12.500 -1.97  0.01
+13.500 -3.22  0.01
+14.500 -4.67  0.01
