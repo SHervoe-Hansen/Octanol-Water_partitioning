@@ -1,0 +1,7 @@
+REMARK   1 PDBFIXER FROM: water.pdb
+REMARK   1 CREATED WITH OPENMM 8.0, 2024-10-14
+HETATM    1  O   SOL     1      -7.336   0.430   6.058  1.00  0.00           O  
+HETATM    2  H1  SOL     1      -8.290  -0.024   5.507  1.00  0.00           H  
+HETATM    3  H2  SOL     1      -7.031   1.519   5.682  1.00  0.00           H  
+TER       4      SOL     1
+END

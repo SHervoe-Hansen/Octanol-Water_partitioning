@@ -1,0 +1,20 @@
+# JUSTIFICATION:
+# NPT simulations of 2000 water and 1-hexanol
+# using the OPLS-AA-1.14_CM1A-LBCC and TIP3P force fields
+# yielded an average box length of 39.39843333333334 Angstrom
+# Target box length: 39.40 Angstrom
+
+tolerance 2.0
+filetype pdb
+output Hexanol_in_water.pdb 
+pbc 39.40 39.40 39.40
+
+structure 1-hexanol.pdb
+        number 1
+	center
+        fixed 19.70 19.70 19.70 0. 0. 0.
+end structure
+
+structure water.pdb
+        number 2000
+end structure

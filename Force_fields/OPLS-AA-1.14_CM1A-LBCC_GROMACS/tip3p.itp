@@ -1,0 +1,34 @@
+[ atomtypes ]
+ opls_111   OW  8      9.95140    -0.834       A    3.15061e-01  6.36386e-01
+ opls_112   HW  1      4.03200     0.417       A    0.00000e+00  0.00000e+00
+
+[ moleculetype ]
+; molname	nrexcl
+SOL		2
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name		cg nr	charge
+1     opls_111  1       SOL              OW             1       -0.834
+2     opls_112  1       SOL             HW1             1        0.417
+3     opls_112  1       SOL             HW2             1        0.417
+
+#ifndef FLEXIBLE
+[ settles ]
+; i	j	funct	length
+1	1	0.09572	0.15139
+
+[ exclusions ]
+1	2	3
+2	1	3
+3	1	2
+#else
+[ bonds ]
+; i	j	funct	length	force.c.
+1	2	1	0.09572	502416.0 0.09572	502416.0 
+1	3	1	0.09572	502416.0 0.09572	502416.0 
+	
+
+[ angles ]
+; i	j	k	funct	angle	force.c.
+2	1	3	1	104.52	628.02	104.52	628.02	
+#endif

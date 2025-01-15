@@ -1,0 +1,20 @@
+# JUSTIFICATION:
+# NPT simulations of 500 1-octanol and 1-hexanol
+# using the OPLS-AA-1.14_CM1A-LBCC force field
+# yielded an average box length of 51.05903333333334 Angstrom
+# Target box length: 51.06 Angstrom
+
+tolerance 1.0
+filetype pdb
+output Hexanol_in_octanol.pdb
+pbc 51.06 51.06 51.06
+
+structure 1-hexanol.pdb
+        number 1
+	center
+        fixed 25.53 25.53 25.53 0. 0. 0.
+end structure
+
+structure 1-octanol.pdb
+        number 500
+end structure

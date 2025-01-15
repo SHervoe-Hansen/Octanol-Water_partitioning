@@ -1,0 +1,57 @@
+{
+  "title": "Electronic Notebook: Solvent-Environment Dependence of the Excess Chemical Potential and its Computation Scheme Formulated Though Error Minimization",
+  "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results in the work titled above",
+  "creators": [
+    {
+      "name": "Stefan Hervø-Hansen",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan",
+      "orcid": "0000-0002-9629-9195"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kazuya Okita",
+      "orcid": "0000-0002-3029-2679",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    },
+    {
+      "name": "Kento Kasahara",
+      "orcid": "0000-0001-7138-250X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    },
+    {
+      "name": "Nobuyuki Matubayasi",
+      "orcid": "0000-0001-7176-441X",
+      "type": "Researcher",
+      "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
+    }
+  ],
+  "keywords": [
+    "reproducible science",
+    "electronic notebooks",
+    "chemistry",
+    "molecular dynamics",
+    "solvation",
+    "free energy calculations",
+    "energy representation theory"
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/SHervoe-Hansen/PEO_solubility_in_urea", 
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.1021/acs.jctc.4c01000",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "access_right": "open",
+  "upload_type": "software"
+}
